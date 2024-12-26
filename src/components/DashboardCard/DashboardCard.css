@@ -1,0 +1,46 @@
+.dashboardcard {
+    height: 110px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-bottom: 1px solid #D5D7DA;
+    background-color: #ffffff;
+}
+.dashboardcard-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.dashboardcard-title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #181D27;
+    font-weight: 520;
+}
+.dashboardcard-visibility {
+    font-size: 14px;
+    color: #175CD3;
+    background: #EFF8FF;
+    border: 1px solid #B2DDFF;
+    padding: 2px 10px 2px 8px;
+    border-radius: 9999px;
+}
+.dashboardcard-info {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 16px;
+}
+.dashboardcard-size {
+    display: flex;
+    gap: 10px;
+}
+.dashboardcard-dot {
+    width: 8px;
+    height: 8px;
+    margin-left: 5px;
+}
+.dashboardcard:hover , .dashboardcard:focus{
+background-color: #F5F5F5;
+}

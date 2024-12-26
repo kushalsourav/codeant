@@ -1,0 +1,111 @@
+.login-info {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+.login-info-card-1 {
+    width: 450px;
+    height: 150px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    border-radius: 24px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 50;
+
+}
+.login-branding {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #E6E8F0;
+    height: 35%;
+    padding: 0 25px;
+}
+.login-branding-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+.login-branding-logo {
+    width: 28px;
+    height: 31px;
+}
+.login-info-card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    width: 100%;
+    height: 50%;
+    padding: 0 25px;
+}
+.card-body-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card-body-info > h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.card-body-info > span {
+    font-size: 14px;
+}
+.login-info-card-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 30px;
+    height: 165px;
+    width: 265px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 24px;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -15%);
+    z-index: 50;
+}
+.login-stats-logo {
+    height: 56px;
+    width: 56px;
+}
+.login-info-card-body-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px;
+    width: 65px;
+    height: 35px;
+    margin-left: auto;
+}
+.login-text {
+    color: #0049C6;
+    font-weight: 600;
+}
+.login-span {
+    font-size: 12px;
+}
+.login-text-issue {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.login-text-500 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.login-subtract {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 285px;
+    height: 320px;
+}

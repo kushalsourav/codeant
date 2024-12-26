@@ -1,0 +1,128 @@
+.login {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    overflow: hidden;
+}
+.login-branding {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.login-col-2 {
+    padding: 20px;
+    background: #FAFAFA;
+    position: relative;
+    z-index: 2;
+}
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+}
+.login-form {
+    width: 672px;
+    border-radius: 12px;
+    overflow: hidden;
+
+    border: 1px solid #E9EAEB;
+}
+.login-welcome {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    height: 276px;
+    padding: 36px 24px ;
+    background: #FFFFFF;
+    border-bottom: 1px solid #D5D7DA;
+}
+
+.login-heading {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+}
+.login-toggle {
+    display: flex;
+}
+.login-btn-toggle {
+    width: 310px;
+    height: 40px !important;
+    background: #FAFAFA;
+    border: 2px solid #D5D7DA;
+    font-size: 20px;
+    font-weight: 500;
+}
+.login-btn-active {
+    background: #1570EF;
+    border: none;
+    color: #FFFFFF;
+}
+
+.login-options {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    height: 325px;
+    background: #FFFFFF;
+    position: relative;
+}
+.login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   width: 446px;
+    height: 57px;
+    background: #FFFFFF;
+    border: 1px solid #D8DAE5;
+}
+.login-terms {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+}
+.login-privacy {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    .login {
+        grid-template-columns: auto;
+    }
+    .login-info {
+    display: none;
+    
+    }
+    .login-col-2  {
+        display: block;
+        position: static;
+    }
+    .login-form {
+        width: fit-content;
+    }
+    .login-btn-toggle {
+        width: 190px;
+    }
+    .login-options {
+        width: auto;
+        padding: 10px;
+    }
+    .login-button {
+        width: 350px;
+    }
+    .login-terms {
+      width: 100%;
+        text-align: center;
+      
+    }
+}

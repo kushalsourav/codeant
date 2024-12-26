@@ -1,0 +1,15 @@
+.dashboard {
+    background-color: #FAFAFA;
+}
+.dashboard-container {
+    margin: 16px;
+    border: 1px solid #E9EAEB;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+@media (max-width: 480px) {
+    .dashboard-container {
+        margin: 10px 0 0 0;
+    }
+}
