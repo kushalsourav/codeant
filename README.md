@@ -1,50 +1,61 @@
-# React + TypeScript + Vite
+# CodeAnt AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation Guide
 
-Currently, two official plugins are available:
+Follow the steps below to set up the project on your local machine:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Step 1: Clone the Repository
+Clone this repository to your local machine:
+```bash
+git clone https://github.com/kushalsourav/codeant.git
+```
+Navigate into the project directory:
+```bash
+cd codeant
+```
+### Step 2: Install Project Dependencies 
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+npm install
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Step 3: Verify TypeScript Configuration
+If the file is missing or you encounter issues, generate a default configuration
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npx tsc --init
 ```
+ 
+### Step 4: Start the Development Server
+Start the development server using the following command:
+
+```bash
+npm run dev
+```
+--- 
+
+### Access the Web Interface
+Once the application is running, open your web browser and navigate to the following URL:
+
+```bash
+http://localhost:5173/
+```
+
+### Images 
+![image](https://github.com/user-attachments/assets/eb7f191c-2b62-4c46-98e3-b3efa870301d)
+![image](https://github.com/user-attachments/assets/745bad02-6cc6-47ea-babc-ecf63437b420)
+
+![image](https://github.com/user-attachments/assets/4adaa372-48fb-4068-986f-a0eacbd86adf)
+![image](https://github.com/user-attachments/assets/83c58126-3170-4203-9d71-5cf0ba0e5c97)
+![image](https://github.com/user-attachments/assets/8f2b36a7-db7f-444f-b406-0cd2555c600f)
+
+
+### Video
+
+
+https://github.com/user-attachments/assets/41f0b40e-ca6b-4d4f-9bb6-71befb1e861d
+
+
+
+
+
